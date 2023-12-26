@@ -1,0 +1,309 @@
+#particles-js{
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'MarckScript';
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: flex;
+    position:fixed;
+    overflow: hidden;
+}
+@font-face {
+    font-family: 'MarckScript'; /* Название шрифта */
+    src: url(MarckScript-Regular.ttf) format('truetype'); /* Путь к файлу шрифта */
+    font-weight:normal;
+    font-style: normal;
+} 
+body{
+	font-size: 36px;
+	font-family: 'MarckScript';
+	color: rgb(248, 5, 5);
+}
+.background {
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-weight: normal;
+	position:fixed;
+	top:  0%;
+	left: 0%;
+}
+h1 {
+  mix-blend-mode:normal; /* Или любой другой режим */
+  color: rgb(248, 5, 5); /* Цвет текста */
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 10vh;
+  font-family: 'MarckScript';
+  text-shadow:  8px 4px 6px rgb(228, 221, 221); rgb(228, 221, 221);
+}
+.muz {
+	background:none;
+	position: absolute;
+	mix-blend-mode:normal;
+	top:  25%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 28px;
+    box-shadow: 4px 4px 14px rgb(230, 219, 219);
+}
+.on {
+	top:  22.5%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: none;
+	position:absolute;
+	font-family: 'MarckScript';
+	font-size: 18px;
+	color: rgb(209, 17, 17);
+}
+.onon {
+	top:  27.5%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: none;
+	position:absolute;
+	font-family: 'MarckScript';
+	font-size: 18px;
+	color: rgb(209, 17, 17);
+}
+.елка {
+	top:  10%;
+	left: 30%;
+	transform: translate(-50%,-50%);
+	position:absolute;
+
+}
+.гир {
+	top:  31%;
+	left: 60%;
+	transform: translate(-50%,-50%);
+	position:absolute;
+}
+.foto1 {
+	margin-right: 20px; overflow: hidden; 
+	border: 1px solid rgb(252, 249, 249); 
+	border-radius: 20px;
+	-moz-border-radius: 20px; 
+	-webkit-border-radius: 20px; 
+	margin: auto;
+	position: absolute;
+	top:  80%;
+	left: 20%;
+	transform: translate(-50%,-50%);
+    box-shadow: 4px 4px 14px rgb(253, 252, 252);
+	
+}
+.reh1 {
+	position: absolute;
+	top:  60%;
+	left: 42.5%;
+	text-shadow:  8px 4px 6px rgb(228, 221, 221);
+	font-weight: 700;
+	margin: auto;
+	padding:15px 20px ;
+	background: rgba(253, 253, 252, 0.411);
+	margin-bottom: 20px;
+	border-radius: 20px;
+	text-align: center;
+}
+.foto2 {
+	margin-right: 20px; overflow: hidden; 
+	border: 1px solid rgb(252, 249, 249); 
+	border-radius: 20px;
+	-moz-border-radius: 20px; 
+	-webkit-border-radius: 20px; 
+	margin:0px auto;
+	position: absolute;
+	top:  160%;
+	left: 80%;
+	transform: translate(-50%,-50%);
+    box-shadow: 4px 4px 14px rgb(253, 252, 252);
+}
+.reh2 {
+	position: absolute;
+	display: inline-block;
+	top:  135%;
+	left: 10%;
+	text-shadow:  8px 4px 6px rgb(228, 221, 221);
+	font-weight: 700;
+	max-width: 900px;
+	margin: auto;
+	padding:15px 20px ;
+	background: rgba(253, 253, 252, 0.411);
+	margin-bottom: 20px;
+	border-radius: 20px;
+	text-align: center;
+}
+.foto3 {
+	margin-right: 200px; overflow: hidden; 
+	border: 1px solid rgb(252, 249, 249); 
+	border-radius: 20px;
+	-moz-border-radius: 20px; 
+	-webkit-border-radius: 20px; 
+	margin: auto;
+	position: absolute;
+	top: 240%;
+	left: 20%;
+	transform: translate(-50%,-50%);
+    box-shadow: 4px 4px 14px rgb(247, 244, 244);
+}
+.reh3 {
+	position: absolute;
+	top:  220%;
+	left: 42.5%;
+	text-shadow:  8px 4px 6px rgb(228, 221, 221);
+	font-weight: 700;
+	margin: auto;
+	padding:15px 20px ;
+	background: rgba(253, 253, 252, 0.411);
+	margin-bottom: 20px;
+	border-radius: 20px;
+	text-align: center;
+}
+.foto4 {
+	margin-right: 20px; overflow: hidden; 
+	border: 1px solid rgb(252, 249, 249); 
+	border-radius: 20px;
+	-moz-border-radius: 20px; 
+	-webkit-border-radius: 20px; 
+	margin:0px auto;
+	position: absolute;
+	top:  320%;
+	left: 80%;
+	transform: translate(-50%,-50%);
+    box-shadow: 4px 4px 14px rgb(253, 252, 252);
+}
+.reh4 {
+	position: absolute;
+	display: inline-block;
+	top:  295%;
+	left: 10%;
+	text-shadow:  8px 4px 6px rgb(228, 221, 221);
+	font-weight: 700;
+	max-width: 900px;
+	margin: auto;
+	padding:15px 20px ;
+	background: rgba(253, 253, 252, 0.411);
+	margin-bottom: 20px;
+	border-radius: 20px;
+	text-align: center;
+}
+.foto5 {
+	margin-right: 200px; overflow: hidden; 
+	border: 1px solid rgb(252, 249, 249); 
+	border-radius: 20px;
+	-moz-border-radius: 20px; 
+	-webkit-border-radius: 20px; 
+	margin: auto;
+	position: absolute;
+	top: 400%;
+	left: 20%;
+	transform: translate(-50%,-50%);
+    box-shadow: 4px 4px 14px rgb(253, 252, 252);
+}
+.reh5 {
+	position: absolute;
+	top:  372%;
+	left: 42.5%;
+	text-shadow:  8px 4px 6px rgb(228, 221, 221);
+	font-weight: 700;
+	margin: auto;
+	padding:15px 20px ;
+	background: rgba(253, 253, 252, 0.411);
+	margin-bottom: 20px;
+	border-radius: 20px;
+	text-align: center;
+}
+.foto6 {
+	margin-right: 20px; overflow: hidden; 
+	border: 1px solid rgb(252, 249, 249); 
+	border-radius: 20px;
+	-moz-border-radius: 20px; 
+	-webkit-border-radius: 20px; 
+	margin:0px auto;
+	position: absolute;
+	top:  480%;
+	left: 80%;
+	transform: translate(-50%,-50%);
+    box-shadow: 4px 4px 14px rgb(253, 252, 252);
+}
+.reh6 {
+	position: absolute;
+	display: inline-block;
+	top:  455%;
+	left: 10%;
+	text-shadow:  8px 4px 6px rgb(228, 221, 221);
+	font-weight: 700;
+	max-width: 900px;
+	margin: auto;
+	padding:15px 20px ;
+	background: rgba(253, 253, 252, 0.411);
+	margin-bottom: 20px;
+	border-radius: 20px;
+	text-align: center;
+}
+.reh7 {
+	position: absolute;
+	display: inline-block;
+	top:  530%;
+	left: 12%;
+	text-shadow:  8px 4px 6px rgb(228, 221, 221);
+	font-weight: 700;
+	max-width: 900px;
+	padding:15px 20px ;
+	background: rgba(253, 253, 252, 0.411);
+	margin-bottom: 20px;
+	border-radius: 20px;
+	text-align: center;
+}
+.snow1 {
+	position: absolute;
+	display: inline-block;
+	top:  60%;
+	left: 42.5%;
+}
+.snow2 {
+	position: absolute;
+	display: inline-block;
+	top:  135%;
+	left: 42.5%;
+}
+.snow3 {
+	position: absolute;
+	display: inline-block;
+	top:  220%;
+	left: 42.5%;
+}
+.snow4 {
+	position: absolute;
+	display: inline-block;
+	top:  295%;
+	left: 48%;
+}
+.snow5 {
+	position: absolute;
+	display: inline-block;
+	top:  372%;
+	left: 42.5%;
+}
+.snow6 {
+	position: absolute;
+	display: inline-block;
+	top:  455%;
+	left: 47%;
+}
+.snow7 {
+	position: absolute;
+	display: inline-block;
+	top:  530%;
+	left: 12%;;
+}
+.snow8 {
+	position: absolute;
+	display: inline-block;
+	top:  620%;
+	left: 12%;;
+}
